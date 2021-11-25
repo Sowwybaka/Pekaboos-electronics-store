@@ -1,0 +1,29 @@
+*{
+    margin:0px
+}
+nav{
+     background-color: pink;
+     border: solid;
+     border-color: pink;
+     border-radius: 5px;
+     text-align: center;
+     padding: 10px;
+     font-size: 24px;
+    margin-bottom: 20px;
+     
+}
+a{
+    margin: 30px;
+    color: #654321;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+header{
+    font-size: 27px;
+    text-align: center;
+    background-color: #654321;
+}
+

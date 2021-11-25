@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+}
+body{
+    animation-name: body-anim;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes body-anim {
+    0%{
+        background-color:rgb(155, 67, 8) ;
+    }
+    50%{
+        background-color: pink;
+    }
+    100%{
+        background-color: rgb(155, 67, 8);
+    }
+    
+    
+}
+form{
+    
+    width: 400px;
+    text-align: center;
+    float: right;
+    margin-right: 100px;
+    border:solid;
+    border-color: rgb(126, 67, 0);
+    border-radius: 5px;
+    border-width: 10px;
+
+}
+#canvas{
+    border: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 5px;
+    
+}
+#Contact-info{
+    width: 500px;
+    float: left;
+    height: 400px;
+    margin-left: 60px;
+    text-align: center;
+    padding-top: 100px;
+    border:solid;
+    border-color: rgb(126, 67, 0);
+    border-radius: 5px;
+    animation-name: Contact-info;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    border-width: 10px;
+}
+@keyframes Contact-info {
+    0%{ 
+        margin-left: 60px;
+        border-color:rgb(126, 67, 0) ;
+    }
+    50%{
+        margin-left: 400px;
+        border-color: pink;
+    }
+    100%{
+        margin-left: 60px;
+        border-color:rgb(126, 67, 0);
+    }
+    
+}
+.contact-info-c{
+    margin-bottom: 25px;
+}
+
+.latest-laptops-image{
+    margin-left: 500px;
+    
+}
+.latest-laptops-text{
+    text-align: center;
+}
+.yogalaptop{
+    margin-left: 420px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 11px;
+}
+button:hover{
+    background-color: green;
+}
+input{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    border-radius: 11px;
+}
+audio{
+    float: right;
+    
+}
+.Location{
+    float: left;
+    border-width: 10px;
+}
+#location-heading{
+    text-align: right;
+}
+

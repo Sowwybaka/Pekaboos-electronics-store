@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="Main.css">
+</head>
+<body>
+
+    <header>
+        <h1>Pekaboos Electronics</h1>
+        <p>Enter the captcha to visit Pekaboos Electronics</p>
+    </header>
+    <img src="Captcha.png">
+    <h1>Enter the captcha below</h1>
+    <input type="text" id="givenCaptcha">
+    <button type="button" onclick="validate()">Submit</button>
+    <p id="ip"></p>
+
+    <!-- <script>
+        function validate(){
+            let captcha="Td4eva" 
+            let gc=document.getElementById(givenCaptcha).value
+            if(captcha==gc){
+                location.href="home.html";
+            }
+            else{
+                document.write("incorrect password");
+            }
+    
+            
+        }
+    </script> -->
+    <script>
+        function validate(){
+            // This function is to validate the password
+            let pas = document.getElementById("givenCaptcha").value
+
+            if(pas=="Td4eva"){
+                location.href="home.html";
+
+            }
+            else{
+                document.getElementById("ip").innerText="Incorrect Password"
+            }
+        }
+
+    </script>
+
+</body>
+</html>
